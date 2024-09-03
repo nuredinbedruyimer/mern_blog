@@ -6,10 +6,12 @@ import SignUp from './pages/SingUp.jsx';  // Corrected spelling
 import Projects from './pages/Projects.jsx';
 import About from './pages/About.jsx';
 import Dashboard from './pages/Dashboard.jsx';
+import Header from './components/Header.jsx';
 
 function App() {
   return (
     <BrowserRouter>
+    <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
