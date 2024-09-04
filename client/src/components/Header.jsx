@@ -32,7 +32,7 @@ export default function Header() {
         </Button>
 
         <Link to='/signin'>
-        <Button className='h-10' gradientDuoTone="purpleToBlue">
+        <Button className='h-10' gradientDuoTone="purpleToBlue" outline>
             Sign In
 
         </Button>
